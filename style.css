@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;; /*Todo important from google later*/
+    color: #0B4654 ;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 32px;
+    display: flex;
+    justify-content: space-between;    
+}
+.logo-and-brandname {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.logo {
+    width: 63px;
+    }
+.brandname {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    color: inherit;
+}
+img {
+    width: 100%;
+    }
+ul {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
