@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Raleway', sans-serif;; /*Todo important from google later*/
-    color: #0B4654 ;
+    font-family: 'Raleway', sans-serif;
 }
 .wrapper {
     max-width: 1280px;
@@ -14,7 +13,8 @@ body {
 header {
     padding: 40px 32px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    align-items: center; 
 }
 .logo-and-brandname {
     display: flex;
@@ -35,10 +35,20 @@ header {
 img {
     width: 100%;
     }
-ul {
+.menu-list {
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 500;
     display: flex;
     gap: 42px;
     align-items: center;
+}
+.hamburger {
+    height: 24px;
+    width: 24px;
+    background: url(./img/Vector\ \(2\).svg);
+    display: none;
+
 }
 li {
     list-style: none;
@@ -50,3 +60,85 @@ a {
     text-decoration: none;
     color: inherit;
 }
+main {
+    display: flex;
+    padding-top: 90px;
+    padding-inline: 32px;
+}
+.main-text {
+    width: 50%;
+    font-family: 'Inter';
+}
+h1 {    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1c1e52;
+    margin-bottom: 22px;
+    width: 523px;
+    }
+span {
+    color: #07b464;
+}
+.main-text-par {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000 ;
+    margin-bottom: 32px;
+}
+.know-more-button {
+    background: linear-gradient(180deg, #34e06f 0%, #07b464 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(255, 255, 255, 0.25) inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 15px 60px;
+    margin-top: 15px;
+    display: inline-block;
+   
+}
+.main-img {
+    width: 667px;
+    padding-top: -135px ;
+    padding-right: 20px;
+}
+ 
+.made-by {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 64px;
+    color: #1c1e52;
+}
+
+
+/* @media screen & (max-width: 1024px){
+    .menu-list {
+         display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    main {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .main-text {
+        width: 100%;
+        padding-inline: 96px;
+    }
+    h1 {
+        width: 100;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .main-text-par {
+        padding-inline: 57px;
+        text-align: center;
+
+    }
+} */
